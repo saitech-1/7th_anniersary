@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Yes mood</title>
+
+  <link rel="stylesheet" href="envalope.css">
+</head>
+<body>
+	<div class="container">
+      <div class="envelope-wrapper">
+        <div class="envelope">
+            <div class="letter">
+                <div class="text">
+                    <strong>My dearest Win</strong>
+                    <p>
+                      Seven months in,and our journey together has been remarkable.Our differences challenge us,but they've only made our bond stronger.Every problem, we've faced it together,and I'm grateful for that.I want you to know I'm working hard to move past my old traumas,for us.Your support means the world to me.
+                      <br>
+                      <br>
+                      Always yours,
+                      Sai
+                    </p>
+                </div>
+            </div>
+        <div class="heart"></div>
+    </div>
+		</div>
+	</div>
+  <script>
+    const envelope = document.querySelector('.envelope-wrapper');
+    envelope.addEventListener('click', () => {
+        envelope.classList.toggle('flap');
+    });
+</script>
+</body>
+</html>
